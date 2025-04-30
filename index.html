@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');</style>
+    <link rel="stylesheet" href="estilo.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--CRIANDO A DIV "CONTAINER" COM O CONTEÚDO DA PÁGINA-->
+    <div class="container">
+        <h1>Andressa Ellen Ramos Campeche</h1>
+        <!--PARÁGRAFO COM UMA BREVE AUTOBIOGRAFIA-->
+        <p>
+            Olá! Meu nome é Andressa, tenho 20 anos de idade e sou de Porto Seguro - BA. 
+            Ingressei no IFBA da minha cidade em 2020, onde me formei Técnica em Informática em 2024 e criei uma forte afeição pela área da tecnologia.<br>
+            Sempre fui apaixonada por arte (desenho, pintura, design...), e também possuo um perfil no Instagram onde posto algumas artes digitais. Meu usuário é 
+            <a href="https://www.instagram.com/kikisuk_/">@kikisuk_</a>. Durante o ensino médio, pensei muito sobre qual carreira queria para a minha vida. Todos nós 
+            já ficamos em um impasse sobre: fazer o que nos faz felizes ou fazer o que dará um retorno financeiro. Acredito que encontrei um certo equilíbrio nessa questão: 
+            escolhi o curso de ADS pela minha experiência prévia em TI, mas também porque adoro trabalhar com front-end e design.
+        </p>
+            <!--BOTÃO QUE EXIBIRÁ A MENSAGEM-->
+            <div>
+                <button id="botaoMensagem" onclick="mostrarMensagem()">clique para ver uma mensagem</button>
+                <p id="mensagem"></p>
+            </div>
+        <!--LISTA DE INTERESSES-->
+        <div  class="interesses">
+            <div>
+                <h1 class="subtitle">Meus interesses</h1>
+                <ul>
+                    <li>Desenhar</li>
+                    <li>Desenvolvimento Web</li>
+                    <li>Jardinagem</li>
+                </ul>
+            </div>
+            <img src="https://img.freepik.com/fotos-premium/tintas-e-pinceis-diferentes_231794-1227.jpg" alt="desenhar">
+        </div>
+        <!--TABELA COM PAÍSES QUE GOSTARIA DE VISITAR-->
+        <h1 class="subtitle">Países que gostaria de visitar</h1>
+        <table>
+            <tr>
+                <td>Holanda</td>
+                <td>
+                    <img src="https://www.4oito.com.br/media/noticias/holanda-4oito_25236.jpg" alt="holanda">
+                </td>
+            </tr>
+            <tr>
+                <td>Nova Zelândia</td>
+                <td>
+                    <img src="https://s2-umsoplaneta.glbimg.com/uwd3vYPRGAqGzWWkcuiwlIpQBus=/0x0:2121x1414/888x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_7d5b9b5029304d27b7ef8a7f28b4d70f/internal_photos/bs/2021/P/0/w5gJfzQoKctAQHVPHQRA/gettyimages-1212689322.jpg" alt="nova Zelândia">
+                </td>
+            </tr>
+            <tr>
+                <td>Grécia</td>
+                <td>
+                    <img src="https://midias.eurodicas.com.br/wp-content/uploads/2024/06/tudo-sobre-a-grecia-1.jpg.webp" alt="grécia">
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
